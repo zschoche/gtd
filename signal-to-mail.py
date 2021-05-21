@@ -32,5 +32,6 @@ else:
     phone = str(sys.argv[3])
     for line in sys.stdin.readlines():
         env = json.loads(line)
+        print(env)
         if env['envelope']['source'] == phone:
             sendtodo(sender,receiver, env['envelope']['syncMessage']['sentMessage']['message'])
