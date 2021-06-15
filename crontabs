@@ -1,0 +1,20 @@
+#GTD
+0 08 * * 1 /home/philipp/gtd/moveall.py INBOX.GTD.1-Mo INBOX.GTD.0-Heute
+0 08 * * 2 /home/philipp/gtd/moveall.py INBOX.GTD.2-Di INBOX.GTD.0-Heute
+0 08 * * 3 /home/philipp/gtd/moveall.py INBOX.GTD.3-Mi INBOX.GTD.0-Heute
+0 08 * * 4 /home/philipp/gtd/moveall.py INBOX.GTD.4-Do INBOX.GTD.0-Heute
+0 08 * * 5 /home/philipp/gtd/moveall.py INBOX.GTD.5-Fr INBOX.GTD.0-Heute
+0 08 * * 6 /home/philipp/gtd/moveall.py INBOX.GTD.6-Sa INBOX.GTD.0-Heute
+0 08 * * 7 /home/philipp/gtd/moveall.py INBOX.GTD.7-So INBOX.GTD.0-Heute
+
+1 08 * * * /home/philipp/gtd/moveall.py INBOX.GTD.Tomorrow INBOX.GTD.0-Heute
+2 08 * * 1 /home/philipp/gtd/moveall.py "INBOX.GTD.Next Week" INBOX.GTD.0-Heute
+
+3 08 * * * /home/philipp/gtd/copyall.py INBOX.GTD.Repeaters.Daily INBOX.GTD.0-Heute
+3 08 * * 1 /home/philipp/gtd/copyall.py INBOX.GTD.Repeaters.Weekly.1-Mo INBOX.GTD.0-Heute
+3 08 * * 2 /home/philipp/gtd/copyall.py INBOX.GTD.Repeaters.Weekly.2-Di INBOX.GTD.0-Heute
+3 08 * * 3 /home/philipp/gtd/copyall.py INBOX.GTD.Repeaters.Weekly.3-Mi INBOX.GTD.0-Heute
+3 08 * * 4 /home/philipp/gtd/copyall.py INBOX.GTD.Repeaters.Weekly.4-Do INBOX.GTD.0-Heute
+3 08 * * 5 /home/philipp/gtd/copyall.py INBOX.GTD.Repeaters.Weekly.5-Fr INBOX.GTD.0-Heute
+3 08 * * 6 /home/philipp/gtd/copyall.py INBOX.GTD.Repeaters.Weekly.6-Sa INBOX.GTD.0-Heute
+3 08 * * 7 /home/philipp/gtd/copyall.py INBOX.GTD.Repeaters.Weekly.7-So INBOX.GTD.0-Heute
