@@ -34,4 +34,6 @@ else:
         env = json.loads(line)
         print(env)
         if env['envelope']['source'] == phone:
-            sendtodo(sender,receiver, env['envelope']['syncMessage']['sentMessage']['message'])
+            syncMsg=env['envelope']['syncMessage']
+            if 'sentMessage' in syncMsg:
+                sendtodo(sender,receiver, syncMsg['sentMessage']['message'])
