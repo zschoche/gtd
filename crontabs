@@ -1,4 +1,6 @@
 #GTD
+*/2 * * * * /home/philipp/gtd/move-new-todos.py INBOX INBOX.GTD.Input
+
 0 08 * * 1 /home/philipp/gtd/moveall.py INBOX.GTD.Monday INBOX.GTD.Today
 0 08 * * 2 /home/philipp/gtd/moveall.py INBOX.GTD.Tuesday INBOX.GTD.Today
 0 08 * * 3 /home/philipp/gtd/moveall.py INBOX.GTD.Wednesday INBOX.GTD.Today
