@@ -1,20 +1,20 @@
 #GTD
-0 08 * * 1 /home/philipp/gtd/moveall.py INBOX.GTD.1-Mo INBOX.GTD.0-Heute
-0 08 * * 2 /home/philipp/gtd/moveall.py INBOX.GTD.2-Di INBOX.GTD.0-Heute
-0 08 * * 3 /home/philipp/gtd/moveall.py INBOX.GTD.3-Mi INBOX.GTD.0-Heute
-0 08 * * 4 /home/philipp/gtd/moveall.py INBOX.GTD.4-Do INBOX.GTD.0-Heute
-0 08 * * 5 /home/philipp/gtd/moveall.py INBOX.GTD.5-Fr INBOX.GTD.0-Heute
-0 08 * * 6 /home/philipp/gtd/moveall.py INBOX.GTD.6-Sa INBOX.GTD.0-Heute
-0 08 * * 7 /home/philipp/gtd/moveall.py INBOX.GTD.7-So INBOX.GTD.0-Heute
+0 08 * * 1 /home/philipp/gtd/moveall.py INBOX.GTD.Monday INBOX.GTD.Today
+0 08 * * 2 /home/philipp/gtd/moveall.py INBOX.GTD.Tuesday INBOX.GTD.Today
+0 08 * * 3 /home/philipp/gtd/moveall.py INBOX.GTD.Wednesday INBOX.GTD.Today
+0 08 * * 4 /home/philipp/gtd/moveall.py INBOX.GTD.Thursday INBOX.GTD.Today
+0 08 * * 5 /home/philipp/gtd/moveall.py INBOX.GTD.Friday INBOX.GTD.Today
+0 08 * * 6 /home/philipp/gtd/moveall.py INBOX.GTD.Saturday INBOX.GTD.Today
+0 08 * * 7 /home/philipp/gtd/moveall.py INBOX.GTD.Sunday INBOX.GTD.Today
 
-1 08 * * * /home/philipp/gtd/moveall.py INBOX.GTD.Tomorrow INBOX.GTD.0-Heute
-2 08 * * 1 /home/philipp/gtd/moveall.py "INBOX.GTD.Next Week" INBOX.GTD.0-Heute
+1 08 * * * /home/philipp/gtd/moveall.py INBOX.GTD.Tomorrow INBOX.GTD.Today
+2 08 * * 1 /home/philipp/gtd/moveall.py "INBOX.GTD.Next Week" INBOX.GTD.Today
 
-3 08 * * * /home/philipp/gtd/copyall.py INBOX.GTD.Repeaters.Daily INBOX.GTD.0-Heute
-3 08 * * 1 /home/philipp/gtd/copyall.py INBOX.GTD.Repeaters.Weekly.1-Mo INBOX.GTD.0-Heute
-3 08 * * 2 /home/philipp/gtd/copyall.py INBOX.GTD.Repeaters.Weekly.2-Di INBOX.GTD.0-Heute
-3 08 * * 3 /home/philipp/gtd/copyall.py INBOX.GTD.Repeaters.Weekly.3-Mi INBOX.GTD.0-Heute
-3 08 * * 4 /home/philipp/gtd/copyall.py INBOX.GTD.Repeaters.Weekly.4-Do INBOX.GTD.0-Heute
-3 08 * * 5 /home/philipp/gtd/copyall.py INBOX.GTD.Repeaters.Weekly.5-Fr INBOX.GTD.0-Heute
-3 08 * * 6 /home/philipp/gtd/copyall.py INBOX.GTD.Repeaters.Weekly.6-Sa INBOX.GTD.0-Heute
-3 08 * * 7 /home/philipp/gtd/copyall.py INBOX.GTD.Repeaters.Weekly.7-So INBOX.GTD.0-Heute
+3 08 * * * /home/philipp/gtd/copyall.py INBOX.GTD.Repeaters.Daily INBOX.GTD.Today
+3 08 * * 1 /home/philipp/gtd/copyall.py INBOX.GTD.Repeaters.Weekly.Monday INBOX.GTD.Today
+3 08 * * 2 /home/philipp/gtd/copyall.py INBOX.GTD.Repeaters.Weekly.Tuesday INBOX.GTD.Today
+3 08 * * 3 /home/philipp/gtd/copyall.py INBOX.GTD.Repeaters.Weekly.Wednesday INBOX.GTD.Today
+3 08 * * 4 /home/philipp/gtd/copyall.py INBOX.GTD.Repeaters.Weekly.Thursday INBOX.GTD.Today
+3 08 * * 5 /home/philipp/gtd/copyall.py INBOX.GTD.Repeaters.Weekly.Friday INBOX.GTD.Today
+3 08 * * 6 /home/philipp/gtd/copyall.py INBOX.GTD.Repeaters.Weekly.Saturday INBOX.GTD.Today
+3 08 * * 7 /home/philipp/gtd/copyall.py INBOX.GTD.Repeaters.Weekly.Sunday INBOX.GTD.Today
