@@ -14,6 +14,7 @@
 0 08 * * 7 /home/philipp/gtd/moveall.py INBOX.GTD.Sunday INBOX.GTD.Today
 
 1 08 * * * /home/philipp/gtd/moveall.py INBOX.GTD.Tomorrow INBOX.GTD.Today
+4 08 * * * /home/philipp/gtd/unseenall.py INBOX.GTD.Today
 2 08 * * 1 /home/philipp/gtd/moveall.py "INBOX.GTD.Next Week" INBOX.GTD.Today
 
 3 08 * * * /home/philipp/gtd/copyall.py INBOX.GTD.Repeaters.Daily INBOX.GTD.Today
